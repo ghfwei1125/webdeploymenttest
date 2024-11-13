@@ -2,8 +2,6 @@
   <div id="app">
     <!-- 顯示 message 變數 -->
     <p>{{ message }}</p>
-    <!-- 顯示 secretString 變數 -->
-    <p>VUE_APP_SECRET_STRING: {{ secretString }}</p>
   </div>
 </template>
 
