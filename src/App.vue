@@ -1,8 +1,5 @@
 <template>
-  <div id="app">
-    <!-- 顯示 message 變數 -->
-    <p>{{ message }}</p>
-  </div>
+  VUE_APP_SECRET_STRING: {{ secretString }}
 </template>
 
 <script>
@@ -11,8 +8,7 @@ export default {
   name: 'App',
   data() {
     return {
-      message: "Hello World",
-
+      secretString: 'hello world',
     };
   },
 };
