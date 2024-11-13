@@ -8,7 +8,8 @@ export default {
   name: 'App',
   data() {
     return {
-      Hello ，World secretString,
+      message: "Hello World",
+
     };
   },
 };
