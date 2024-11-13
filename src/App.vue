@@ -8,7 +8,7 @@ export default {
   name: 'App',
   data() {
     return {
-      "Hello World",
+      Hello ，World secretString,
     };
   },
 };
