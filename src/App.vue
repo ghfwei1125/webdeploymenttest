@@ -8,7 +8,7 @@ export default {
   name: 'App',
   data() {
     return {
-      secretString: process.env.VUE_APP_SECRET_STRING,
+      "Hello World",
     };
   },
 };
